@@ -1,11 +1,30 @@
 export let data = {
     "roles": [
         {
-            "id": 1,
-            "name": "superadmin",
-        }
+            id: 1,
+            name: "superadmin",
+        },
+        {
+            id: 2,
+            name: "adminDimy4",
+        },
+        {
+            id: 3,
+            name: "it",
+        },
+        {
+            id: 4,
+            name: "mentor",
+        },
+        {
+            id: 5,
+            name: "freelance",
+        },
+        {   id: 6,
+            name: "manager",
+        },
     ],
-   "users": [
+    "users": [
         {
             "id": 1,
             "firstName": "ВАЛЕРА",
@@ -25,26 +44,26 @@ export let data = {
             "addedDate": new Date(2019, 0, 1)
         }
     ],
-       "accounts": [
-          {
-              "id": 1,
-              "login": "VALERAQA",
-              "password": "qwerty123",
-              "userId": 1,
-          },
-          {
-              "id": 2,
-              "login": "VALERAQA2",
-              "password": "qwerty1232",
-              "userId": 2,
-          }
-      ],
-      "courses": [
-          {
-              "id": 1,
-              "title": "front-end"
-          }
-      ],
+    "accounts": [
+        {
+            "id": 1,
+            "login": "VALERAQA",
+            "password": "qwerty123",
+            "userId": 1,
+        },
+        {
+            "id": 2,
+            "login": "VALERAQA2",
+            "password": "qwerty1232",
+            "userId": 2,
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "front-end"
+        }
+    ],
     /*    "courseSettings": [
            {
                "id": 0,
