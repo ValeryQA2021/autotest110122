@@ -10,7 +10,7 @@ describe('roles-crud', () => {
 
 
     describe('get', () => {
-
+        console.log('test for commit github')
         it('should be get roles', async () => {
             let res = await api.get('roles?pageSize=1&page=1');
             expect(res.data.items.length).toBe(1);
